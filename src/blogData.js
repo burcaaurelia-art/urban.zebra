@@ -170,7 +170,7 @@ Pentru că adevărata aventură începe atunci când alegem să fim parte din so
   id: 3,
   title: "City-break-uri în România: 5 orașe care surprind",
   date: "05 Octombrie 2025",
-  image: "https://images.unsplash.com/photo-1692547804498-fc9019d3e28d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80",
+  image: "https://images.unsplash.com/photo-1594737625785-c6683fc5c1d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1400&q=80",
   excerpt: "Cluj, Timișoara, Iași, Brașov și Oradea — orașe care îți arată cât de modernă, creativă și elegantă poate fi România urbană.",
   content: `
 România nu mai înseamnă doar tradiție și sate pitorești — ci și orașe care pulsează de viață, gastronomie, arhitectură și creativitate.
