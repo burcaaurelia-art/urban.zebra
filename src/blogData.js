@@ -1,11 +1,11 @@
 const blogPosts = [
   {
-  id: 1,
-  title: "Weekenduri urbane: top 5 orașe europene de explorat în 2025",
-  date: "21 Octombrie 2025",
-  image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
-  excerpt: "Descoperă cinci orașe europene care definesc spiritul modern al explorării urbane în 2025 — de la Lisabona la Roma.",
-  content: `
+    id: 1,
+    title: "Weekenduri urbane: top 5 orașe europene de explorat în 2025",
+    date: "21 Octombrie 2025",
+    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+    excerpt: "Descoperă cinci orașe europene care definesc spiritul modern al explorării urbane în 2025 — de la Lisabona la Roma.",
+    content: `
 Într-o lume în care timpul devine tot mai prețios, weekendurile urbane sunt noul lux.
 Scurte, intense și pline de energie, ele ne oferă șansa de a ne reconecta cu ritmul orașelor, cu arta străzii, cu oamenii și cu cultura locală.
 
@@ -88,37 +88,44 @@ Roma e eternă, dar mereu nouă.
 Fiecare oraș are o energie proprie, un ritm și un parfum distinct.
 Urban.Zebra te provoacă să-ți alegi următoarea destinație nu după distanță, ci după vibrația pe care ți-o oferă.
 Pentru că în final, călătoria nu e despre locuri — e despre felul în care ele ne transformă.
-  `
-},
-
-Urban.Zebra e despre energia locurilor care nu dorm niciodată.`
+    `
   },
+
   {
     id: 2,
     title: "Călătorii sustenabile: cum să explorezi responsabil",
     date: "18 Octombrie 2025",
     image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1400&q=80",
     excerpt: "Reduce-ți amprenta și bucură-te de aventuri autentice — fără compromisuri de confort.",
-    content: `Călătoriile sustenabile nu înseamnă să renunți la confort.
-Alege transport verde, cazări eco și produse locale. Fiecare alegere contează.`
+    content: `
+Călătoriile sustenabile nu înseamnă să renunți la confort.
+Alege transport verde, cazări eco și produse locale.
+Fiecare alegere contează.
+    `
   },
+
   {
     id: 3,
     title: "Minimalism în bagaj: cum să iei doar ce ai nevoie",
     date: "10 Octombrie 2025",
     image: "https://images.unsplash.com/photo-1541417904950-b855846fe074?auto=format&fit=crop&w=1400&q=80",
     excerpt: "Mai puțin în bagaj, mai multă libertate. Ghidul complet pentru a călători smart.",
-    content: `Secretul unei vacanțe fără stres? Bagajul ușor.
-Haine versatile, nuanțe neutre și articole multifuncționale — e tot ce îți trebuie.`
+    content: `
+Secretul unei vacanțe fără stres? Bagajul ușor.
+Haine versatile, nuanțe neutre și articole multifuncționale — e tot ce îți trebuie.
+    `
   },
+
   {
     id: 4,
     title: "City-break-uri în România: 5 orașe care surprind",
     date: "05 Octombrie 2025",
     image: "https://images.unsplash.com/photo-1594737625785-c6683fc5c1d2?auto=format&fit=crop&w=1400&q=80",
     excerpt: "Cluj, Timișoara, Iași, Brașov și Oradea — fiecare cu vibe-ul lui urban, gastro și cultural.",
-    content: `România are orașe superbe pentru escapade scurte: gastro, arhitectură, natură aproape.
-Ia-ți rucsacul — descoperă-le pe toate!`
+    content: `
+România are orașe superbe pentru escapade scurte: gastro, arhitectură, natură aproape.
+Ia-ți rucsacul — descoperă-le pe toate!
+    `
   }
 ];
 
