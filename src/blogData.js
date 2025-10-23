@@ -1,6 +1,5 @@
 const blogPosts = [
   {
-{
   id: 1,
   title: "Weekenduri urbane: top 5 orașe europene de explorat în 2025",
   date: "21 Octombrie 2025",
