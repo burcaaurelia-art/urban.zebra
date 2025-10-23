@@ -229,9 +229,8 @@ România urbană trăiește un moment de renaștere.
 Fiecare oraș îți oferă o versiune nouă a ta însuți.
 Urban.Zebra te provoacă să redescoperi România, un city-break pe rând. 🇷🇴
   `
-},
-
-
+}
 ];
 
 export default blogPosts;
+
