@@ -104,17 +104,81 @@ Fiecare alegere contează.
     `
   },
 
-  {
-    id: 3,
-    title: "Minimalism în bagaj: cum să iei doar ce ai nevoie",
-    date: "10 Octombrie 2025",
-    image: "https://images.unsplash.com/photo-1541417904950-b855846fe074?auto=format&fit=crop&w=1400&q=80",
-    excerpt: "Mai puțin în bagaj, mai multă libertate. Ghidul complet pentru a călători smart.",
-    content: `
-Secretul unei vacanțe fără stres? Bagajul ușor.
-Haine versatile, nuanțe neutre și articole multifuncționale — e tot ce îți trebuie.
-    `
-  },
+{
+  id: 2,
+  title: "Călătorii sustenabile: cum să explorezi responsabil",
+  date: "18 Octombrie 2025",
+  image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1400&q=80",
+  excerpt: "Află cum poți explora lumea responsabil, fără să renunți la confort — de la transport verde la cazare eco și gastronomie locală.",
+  content: `
+Trăim într-o epocă în care călătoria nu mai înseamnă doar destinația — ci și impactul pe care îl lăsăm în urma noastră.
+Călătoria sustenabilă este mai mult decât o tendință. Este o alegere conștientă de a explora lumea fără să o consumăm.
+
+Fie că pleci într-un city break european sau într-o aventură exotică, există moduri simple de a reduce amprenta ta asupra mediului — fără să sacrifici confortul sau experiența autentică.
+
+---
+
+🌿 **1️⃣ Începe cu transportul**
+
+Zborurile scurte sunt printre cele mai poluante forme de transport.
+Dacă poți, alege trenul sau autocarul. Europa are rețele moderne, rapide și confortabile, care transformă drumul într-o parte a călătoriei.
+
+👉 Când zborul e inevitabil:
+- Alege zboruri directe — reduc decolările și aterizările.
+- Cumpără compensații de carbon de la companii verificate.
+- Călătorește cu bagaj ușor — greutatea contează pentru consumul de combustibil.
+
+---
+
+🏡 **2️⃣ Cazare responsabilă**
+
+Sustenabilitatea începe acolo unde dormi.
+Caută hoteluri sau pensiuni care folosesc energie verde, reduc plasticul și sprijină economia locală.
+
+Un semn bun?
+Locurile care oferă produse locale la mic dejun și care folosesc cosmetice refolosibile în locul mini-sticluțelor.
+
+---
+
+🍽️ **3️⃣ Mănâncă local, gândește global**
+
+Bucătăria locală este un portal către cultura locului.
+Evită lanțurile internaționale și explorează restaurantele mici, conduse de localnici.
+
+Nu doar că mănânci mai bine, dar susții economia comunității.
+Un prânz autentic într-un bistro local valorează mai mult decât o cină scumpă fără suflet.
+
+---
+
+🧳 **4️⃣ Cumpără cu sens**
+
+Suvenirurile nu trebuie să fie produse de serie.
+Caută obiecte create manual, din materiale sustenabile, și întreabă despre povestea din spatele lor.
+
+Fiecare achiziție devine o amintire care chiar are valoare.
+
+---
+
+🌍 **5️⃣ Respectă locurile și oamenii**
+
+Sustenabilitatea nu e doar ecologie — e respect.
+Respect pentru natură, tradiții și ritmul local al vieții.
+
+Nu lăsa urme, dar lasă zâmbete.
+Salută localnicii, nu fotografia oameni fără permisiune, și lasă locurile exact așa cum le-ai găsit.
+
+---
+
+🌱 **Concluzie**
+
+A călători sustenabil nu înseamnă să renunți la plăcere — înseamnă să o redefinești.
+Fiecare pas conștient, fiecare alegere mică, construiește o lume mai frumoasă pentru toți cei care vin după noi.
+
+Urban.Zebra te provoacă să explorezi cu inimă ușoară și pași responsabili.
+Pentru că adevărata aventură începe atunci când alegem să fim parte din soluție, nu din problemă. 🌍
+  `
+},
+
 
   {
     id: 4,
