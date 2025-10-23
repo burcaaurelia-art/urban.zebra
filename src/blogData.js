@@ -91,19 +91,6 @@ Pentru că în final, călătoria nu e despre locuri — e despre felul în care
     `
   },
 
-  {
-    id: 2,
-    title: "Călătorii sustenabile: cum să explorezi responsabil",
-    date: "18 Octombrie 2025",
-    image: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1400&q=80",
-    excerpt: "Reduce-ți amprenta și bucură-te de aventuri autentice — fără compromisuri de confort.",
-    content: `
-Călătoriile sustenabile nu înseamnă să renunți la confort.
-Alege transport verde, cazări eco și produse locale.
-Fiecare alegere contează.
-    `
-  },
-
 {
   id: 2,
   title: "Călătorii sustenabile: cum să explorezi responsabil",
@@ -181,7 +168,7 @@ Pentru că adevărata aventură începe atunci când alegem să fim parte din so
 
 
   {
-    id: 4,
+    id: 3,
     title: "City-break-uri în România: 5 orașe care surprind",
     date: "05 Octombrie 2025",
     image: "https://images.unsplash.com/photo-1594737625785-c6683fc5c1d2?auto=format&fit=crop&w=1400&q=80",
