@@ -5,6 +5,7 @@ import blogPosts from '../blogData'
 export default function BlogPost() {
   const { id } = useParams()
   const post = blogPosts.find(p => p.id === parseInt(id))
+  console.log("Post image:", post?.image);
 
   if (!post) {
     return <div className="container py-16 text-center text-white/70">Articolul nu a fost găsit.</div>
