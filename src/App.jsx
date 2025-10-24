@@ -12,7 +12,7 @@ export default function App() {
       <Navbar />
 
       {/* Conținut principal cu padding fixat */}
-      <main className="pt-[100px] sm:pt-[120px] px-4 flex-1 transition-all duration-300">
+      <main className="pt-[130px] sm:pt-[150px] px-4 flex-1 transition-all duration-300">
         <Routes>
           <Route path="/" element={<BlogList />} />
           <Route path="/blog/:id" element={<BlogPost />} />
