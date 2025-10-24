@@ -7,45 +7,27 @@ export default function BlogPost() {
   const post = blogPosts.find(p => p.id === parseInt(id))
 
   if (!post) {
-    return (
-      <div className="container py-16 text-center text-white/70">
-        Articolul nu a fost găsit.
-      </div>
-    )
+    return <div className="container py-16 text-center text-white/70">Articolul nu a fost găsit.</div>
   }
 
   return (
-    <div className="pb-16">
-      {/* Imagine + Overlay */}
-      <div className="relative w-full h-[60vh] bg-black">
-        <img
-          src={post.image || 'https://source.unsplash.com/1600x900/?romania,city'}
-          alt={post.title}
-          className="absolute inset-0 w-full h-full object-cover"
-          onError={(e) => {
-            e.target.src = 'https://source.unsplash.com/1600x900/?romania,city';
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-center text-white max-w-3xl px-4">
-          <h1 className="text-3xl md:text-5xl font-extrabold mb-2 gold drop-shadow-lg">{post.title}</h1>
-          <p className="text-white/70 text-sm">{post.date}</p>
-        </div>
-      </div>
+    <div className="container py-8">
+      <Link to="/" className="text-white/70 hover:text-white">← Înapoi la <span className="gold">Urban.Zebra</span></Link>
 
-      {/* Conținut */}
-      <div className="container max-w-3xl pt-10 text-white/90 leading-relaxed">
-        <Link
-          to="/"
-          className="inline-block mb-8 text-white/70 hover:text-[rgba(212,175,55,0.9)] transition"
-        >
-          ← Înapoi la <span className="gold">Urban.Zebra</span>
-        </Link>
+      <img
+        src={post.image}
+        alt={post.title}
+        className="w-full h-64 object-cover rounded-2xl my-6 border border-white/10"
+      />
 
-        <div className="whitespace-pre-line text-base md:text-lg">
-          {post.content}
-        </div>
-      </div>
+      <h1 className="text-3xl font-bold mb-2 gold">{post.title}</h1>
+      <p className="text-white/60 mb-6 text-sm">{post.date}</p>
+
+      {/* Aici e schimbarea importantă */}
+      <div
+        className="leading-relaxed text-white/90 prose prose-invert max-w-none"
+        dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br/>') }}
+      />
     </div>
   )
 }
