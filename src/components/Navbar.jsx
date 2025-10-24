@@ -1,56 +1,24 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-black/90 backdrop-blur-md border-b-4 border-red-500 shadow-lg mt-10">
-      <div className="max-w-7xl mx-auto flex items-center justify-between py-5 px-6 sm:py-6 mt-3 sm:mt-4">
+    <nav className="w-full bg-black/60 backdrop-blur-md border-b border-white/10 fixed top-0 left-0 z-50">
+      <div className="container mx-auto flex justify-between items-center py-4 px-6">
+        
         {/* LOGO */}
-        <Link
-  to="/"
-  className="flex items-center space-x-1 group mt-2 sm:mt-3"
->
-  <span className="text-white text-2xl sm:text-3xl font-extrabold tracking-tight group-hover:text-yellow-400 transition-colors">
-    Urban
-  </span>
-  <span className="text-yellow-400 text-2xl sm:text-3xl font-extrabold tracking-tight group-hover:translate-x-0.5 transition-transform">
-    .Zebra
-  </span>
-</Link>
-          <span className="text-white text-2xl sm:text-3xl font-extrabold tracking-tight group-hover:text-yellow-400 transition-colors">
-            Urban
-          </span>
-          <span className="text-yellow-400 text-2xl sm:text-3xl font-extrabold tracking-tight group-hover:translate-x-0.5 transition-transform">
-            .Zebra
-          </span>
+        <Link to="/" className="text-2xl font-extrabold text-white hover:text-[#D4AF37] transition">
+          Urban<span className="text-[#D4AF37]">.Zebra</span>
         </Link>
 
         {/* MENIU */}
-        <div className="flex space-x-6 text-sm font-medium">
-          <Link
-            to="/"
-            className="text-white/80 hover:text-yellow-400 transition-colors"
-          >
-            Blog
-          </Link>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white/80 hover:text-yellow-400 transition-colors"
-          >
-            Instagram
-          </a>
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white/80 hover:text-yellow-400 transition-colors"
-          >
-            Facebook
-          </a>
+        <div className="flex space-x-6 text-white/80">
+          <a href="#blog" className="hover:text-[#D4AF37] transition">Blog</a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition">Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition">Facebook</a>
         </div>
+
       </div>
     </nav>
-  );
+  )
 }
