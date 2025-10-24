@@ -12,7 +12,7 @@ export default function App() {
       <Navbar />
 
       {/* Spațiu sub navbar pentru a evita suprapunerea titlului */}
-      <main className="pt-20 sm:pt-24 flex-1">
+      <main className="pt-24 sm:pt-28 flex-1">
         <Routes>
           <Route path="/" element={<BlogList />} />
           <Route path="/blog/:id" element={<BlogPost />} />
