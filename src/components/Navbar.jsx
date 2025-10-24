@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/90 backdrop-blur-md border-b-4 border-red-500 shadow-lg">
-      <div className="max-w-7xl mx-auto flex items-center justify-between py-3 px-6 sm:py-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between py-5 px-6 sm:py-6">
         {/* LOGO */}
         <Link to="/" className="flex items-center space-x-1 group">
           <span className="text-white text-2xl sm:text-3xl font-extrabold tracking-tight group-hover:text-yellow-400 transition-colors">
