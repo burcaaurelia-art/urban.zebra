@@ -1,21 +1,26 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar.jsx'
-import Footer from './components/Footer.jsx'
-import BlogList from './components/BlogList.jsx'
-import BlogPost from './components/BlogPost.jsx'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import BlogList from './pages/BlogList';
+import BlogPost from './pages/BlogPost';
 
 export default function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="min-h-screen bg-black text-white flex flex-col">
+      {/* 🦓 Navbar */}
       <Navbar />
-      <main className="flex-grow">
+
+      {/* ✨ Spațiu sub navbar fix */}
+      <div className="pt-20 sm:pt-24 flex-1">
         <Routes>
           <Route path="/" element={<BlogList />} />
           <Route path="/blog/:id" element={<BlogPost />} />
         </Routes>
-      </main>
+      </div>
+
+      {/* ⚡ Footer */}
       <Footer />
     </div>
-  )
+  );
 }
