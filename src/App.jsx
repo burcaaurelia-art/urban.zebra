@@ -8,18 +8,18 @@ import BlogPost from "./pages/BlogPost";
 export default function App() {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
-      {/* 🦓 Navbar fix sus */}
+      {/* Navbar fix */}
       <Navbar />
 
-      {/* 🧭 Conținutul principal (cu spațiu sub navbar) */}
-      <main className="pt-32 sm:pt-40 px-4 flex-1 transition-all duration-300">
+      {/* Conținut principal cu padding fixat */}
+      <main className="pt-[100px] sm:pt-[120px] px-4 flex-1 transition-all duration-300">
         <Routes>
           <Route path="/" element={<BlogList />} />
           <Route path="/blog/:id" element={<BlogPost />} />
         </Routes>
       </main>
 
-      {/* ⚡ Footer simplu */}
+      {/* Footer */}
       <Footer />
     </div>
   );
