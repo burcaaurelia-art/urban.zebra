@@ -176,9 +176,9 @@ Pentru că adevărata aventură începe atunci când alegem să fim parte din so
 România nu mai înseamnă doar tradiție și sate pitorești — ci și orașe care pulsează de viață, gastronomie, arhitectură și creativitate.
 Urban.Zebra ți-a pregătit cinci destinații care te vor surprinde prin energia lor modernă și autentică.
 
----
 
-🏙️ **1️⃣ Cluj-Napoca — inima culturală a Transilvaniei**
+
+** 1 Cluj-Napoca — inima culturală a Transilvaniei**
 
 Clujul e orașul care respiră tinerețe, inovație și artă.
 Festivaluri, cafenele hipsterești, spații creative și o energie urbană care te cucerește instant.
@@ -188,9 +188,9 @@ Festivaluri, cafenele hipsterești, spații creative și o energie urbană care 
 - Explorează Parcul Central și Someșul reamenajat.
 - Urcă pe Cetățuie pentru o priveliște spectaculoasă la apus.
 
----
 
-🎭 **2️⃣ Timișoara — orașul luminilor și al diversității**
+
+** 2 Timișoara — orașul luminilor și al diversității**
 
 Capitala Europeană a Culturii din 2023 continuă să strălucească și în 2025.
 Timișoara e un amestec fascinant de arhitectură imperială, oameni calzi și evenimente culturale la tot pasul.
@@ -200,28 +200,28 @@ Timișoara e un amestec fascinant de arhitectură imperială, oameni calzi și e
 - Gustă mâncarea bănățeană la restaurante locale.
 - Plimbă-te seara pe malul Begăi — orașul prinde viață în lumina felinarelor.
 
----
 
-🕍 **3️⃣ Iași — între cultură și romantism**
+
+** 3 Iași — între cultură și romantism**
 
 Iașiul e o poezie urbană.
 Palatul Culturii, străduțele cu parfum interbelic, cafenelele boeme — toate creează o atmosferă care te face să încetinești și să respiri frumos.
 
----
 
-🏰 **4️⃣ Brașov — munte, istorie și povești**
+
+** 4 Brașov — munte, istorie și povești**
 
 Brașovul e locul unde muntele întâlnește rafinamentul urban.
 Străduțele din centrul vechi, Tâmpa și casele colorate creează un decor de poveste pentru orice weekend.
 
----
 
-🕰️ **5️⃣ Oradea — eleganță art nouveau și vibe cosmopolit**
+
+** 5 Oradea — eleganță art nouveau și vibe cosmopolit**
 
 Oradea e, poate, cea mai rafinată surpriză a României urbane.
 Clădirile renovate impecabil, cafenelele de pe malul Crișului și atmosfera relaxată te cuceresc instant.
 
----
+
 
 🌍 **Concluzie**
 
