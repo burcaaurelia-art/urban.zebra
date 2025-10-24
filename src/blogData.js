@@ -9,7 +9,7 @@ const blogPosts = [
 Într-o lume în care timpul devine tot mai prețios, weekendurile urbane sunt noul lux.
 Scurte, intense și pline de energie, ele ne oferă șansa de a ne reconecta cu ritmul orașelor, cu arta străzii, cu oamenii și cu cultura locală.
 
-Pentru 2025, Urban.Zebra a selectat cinci orașe europene care merită explorate într-un city break de neuitat.
+ Urban.Zebra a selectat cinci orașe europene care merită explorate într-un city break de neuitat.
 
 
 
