@@ -12,7 +12,7 @@ export default function App() {
       <Navbar />
 
       {/* 🧭 Conținutul principal (cu spațiu sub navbar) */}
-      <main className="pt-28 sm:pt-32 px-4 flex-1 transition-all duration-300">
+      <main className="pt-32 sm:pt-40 px-4 flex-1 transition-all duration-300">
         <Routes>
           <Route path="/" element={<BlogList />} />
           <Route path="/blog/:id" element={<BlogPost />} />
