@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BlogList from "./pages/BlogList";
 import BlogPost from "./pages/BlogPost";
+import CereOferta from "./CereOferta.jsx";
+
 
 export default function App() {
   return (
@@ -13,10 +15,12 @@ export default function App() {
 
       {/* Conținut principal cu padding fixat */}
       <main className="pt-[120px] sm:pt-[140px] px-4 flex-1 transition-all duration-300">
-        <Routes>
-          <Route path="/" element={<BlogList />} />
-          <Route path="/blog/:id" element={<BlogPost />} />
-        </Routes>
+<Routes>
+  <Route path="/" element={<BlogList />} />
+  <Route path="/blog/:id" element={<BlogPost />} />
+  <Route path="/cere-oferta" element={<CereOferta />} /> {/* 👈 nou */}
+</Routes>
+
       </main>
 
       {/* Footer */}
