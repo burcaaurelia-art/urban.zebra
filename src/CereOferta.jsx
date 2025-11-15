@@ -12,7 +12,7 @@ export default function CereOferta() {
           method="POST"
           style={{ display: "flex", flexDirection: "column", gap: "10px" }}
         >
-          {/* cheia ta de la Web3Forms */}
+          {/* efd6f339-47d1-4294-bebc-a24b8f3994f2 */}
           <input
             type="hidden"
             name="access_key"
