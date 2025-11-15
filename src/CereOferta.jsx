@@ -19,7 +19,7 @@ export default function CereOferta() {
           gap: "12px"
         }}
       >
-        {/* Cheia ta Web3Forms */}
+        {/* efd6f339-47d1-4294-bebc-a24b8f3994f2 */}
         <input
           type="hidden"
           name="access_key"
