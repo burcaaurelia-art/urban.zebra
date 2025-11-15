@@ -1,66 +1,102 @@
-import { useState } from "react";
-
 export default function CereOferta() {
-  const [status, setStatus] = useState("idle");
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    destination: "",
-    date: "",
-    budget: "",
-    message: "",
-    gdpr: false,
-  });
-
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: type === "checkbox" ? checked : value,
-    }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("loading");
-
-    const res = await fetch("/api/cere-oferta", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
-
-    if (res.ok) {
-      setStatus("success");
-    } else {
-      setStatus("error");
-    }
-  };
-
   return (
-    <div style={{ padding: "40px", maxWidth: "600px", margin: "0 auto" }}>
-      <h1>Cere ofertă personalizată</h1>
+    <div style={{
+      padding: "40px",
+      maxWidth: "600px",
+      margin: "0 auto",
+      color: "#fff"
+    }}>
+      <h1 style={{ marginBottom: "20px", textAlign: "center" }}>
+        Cere ofertă personalizată ✈️
+      </h1>
 
-      <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-        <input name="name" placeholder="Nume*" required onChange={handleChange} />
-        <input name="email" placeholder="Email*" required onChange={handleChange} />
-        <input name="phone" placeholder="Telefon*" required onChange={handleChange} />
-        <input name="destination" placeholder="Destinație" onChange={handleChange} />
-        <input name="date" placeholder="Perioada" onChange={handleChange} />
-        <input name="budget" placeholder="Buget" onChange={handleChange} />
-        <textarea name="message" placeholder="Detalii" rows="4" onChange={handleChange} />
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "12px"
+        }}
+      >
+        {/* Cheia ta Web3Forms */}
+        <input
+          type="hidden"
+          name="access_key"
+          value="e6df6339-47d1-4294-bebc-a24b8f3994f2"
+        />
 
-        <label>
-          <input type="checkbox" name="gdpr" required onChange={handleChange} /> Accept GDPR
+        {/* Redirect după succes */}
+        <input
+          type="hidden"
+          name="redirect"
+          value="https://urban-zebra-blog.vercel.app/cere-oferta"
+        />
+
+        <input
+          name="name"
+          placeholder="Nume complet"
+          required
+          style={{ padding: "10px" }}
+        />
+
+        <input
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+          style={{ padding: "10px" }}
+        />
+
+        <input
+          name="phone"
+          placeholder="Telefon"
+          required
+          style={{ padding: "10px" }}
+        />
+
+        <input
+          name="destination"
+          placeholder="Destinație"
+          style={{ padding: "10px" }}
+        />
+
+        <input
+          name="date"
+          placeholder="Perioada"
+          style={{ padding: "10px" }}
+        />
+
+        <input
+          name="budget"
+          placeholder="Buget"
+          style={{ padding: "10px" }}
+        />
+
+        <textarea
+          name="message"
+          placeholder="Detalii"
+          rows={4}
+          style={{ padding: "10px" }}
+        />
+
+        <label style={{ fontSize: "14px" }}>
+          <input type="checkbox" name="gdpr" required /> Accept GDPR
         </label>
 
-        <button type="submit">
-          {status === "loading" ? "Se trimite..." : "Trimite"}
+        <button
+          type="submit"
+          style={{
+            padding: "12px",
+            background: "#fff",
+            color: "#000",
+            border: "none",
+            fontWeight: "bold",
+            cursor: "pointer"
+          }}
+        >
+          Trimite
         </button>
-
-        {status === "success" && <p style={{ color: "green" }}>Email trimis!</p>}
-        {status === "error" && <p style={{ color: "red" }}>Eroare la trimitere.</p>}
       </form>
     </div>
   );
